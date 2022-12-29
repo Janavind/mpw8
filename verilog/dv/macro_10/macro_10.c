@@ -112,7 +112,7 @@ reg_mprj_io_37 = GPIO_MODE_USER_STD_INPUT_NOPULL;
 //	reg_la1_oenb = reg_la1_iena = 0xFFFFFFFF;    // [63:32]
 reg_la0_iena = 0x00000000;// input enabled
 reg_la0_oenb = 0xffffffff; // all outputs enabled
-reg_la0_data = 1 << 2;	
+reg_la0_data = 1 << 3;	
 //	while(1);
 }
 
