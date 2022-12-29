@@ -126,7 +126,7 @@ macro_golden u_macro_golden (
 
 		);
 
-/*
+
 
 
 macro_7 u_macro_7 (
@@ -376,7 +376,7 @@ macro_nofill u_macro_nofill (
 
                 );
 
-*/
+
 
  endmodule	// user_project_wrapper
 
