@@ -48,8 +48,12 @@
 // is set to power up as an input controlled by the management SoC.
 // Users may want to redefine these so that the user project powers
 // up in a state that can be used immediately without depending on
-// the management SoC to run a startup program to configure the GPIOs.
-
+// the management SoC to riun a startup program to configure the GPIOs.
+`define USER_CONFIG_GPIO_0_INIT  `GPIO_MODE_USER_STD_INPUT_PULLDOWN
+`define USER_CONFIG_GPIO_1_INIT  `GPIO_MODE_USER_STD_INPUT_PULLDOWN
+`define USER_CONFIG_GPIO_2_INIT  `GPIO_MODE_USER_STD_INPUT_PULLDOWN
+`define USER_CONFIG_GPIO_3_INIT  `GPIO_MODE_USER_STD_INPUT_PULLDOWN
+`define USER_CONFIG_GPIO_4_INIT  `GPIO_MODE_USER_STD_INPUT_PULLDOWN
 `define USER_CONFIG_GPIO_5_INIT  `GPIO_MODE_USER_STD_INPUT_PULLDOWN
 `define USER_CONFIG_GPIO_6_INIT  `GPIO_MODE_USER_STD_INPUT_PULLDOWN
 `define USER_CONFIG_GPIO_7_INIT  `GPIO_MODE_USER_STD_INPUT_PULLDOWN
