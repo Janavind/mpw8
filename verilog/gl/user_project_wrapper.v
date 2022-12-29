@@ -53,7 +53,7 @@ module user_project_wrapper (user_clock2,
  output [31:0] wbs_dat_o;
  input [3:0] wbs_sel_i;
 
-/*
+
  macro_10 u_macro_10 (.io_active(la_data_in[3]),
     .vccd1(vccd1),
     .vssd1(vssd1),
@@ -660,10 +660,6 @@ module user_project_wrapper (user_clock2,
     wbs_sel_i[2],
     wbs_sel_i[1],
     wbs_sel_i[0]}));
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//
  macro_15 u_macro_15 (.io_active(la_data_in[4]),
     .vccd1(vccd1),
     .vssd1(vssd1),
@@ -1270,10 +1266,6 @@ module user_project_wrapper (user_clock2,
     wbs_sel_i[2],
     wbs_sel_i[1],
     wbs_sel_i[0]}));
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
  macro_7 u_macro_7 (.io_active(la_data_in[2]),
     .vccd1(vccd1),
     .vssd1(vssd1),
@@ -1880,9 +1872,6 @@ module user_project_wrapper (user_clock2,
     wbs_sel_i[2],
     wbs_sel_i[1],
     wbs_sel_i[0]}));
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
  macro_decap_12 u_macro_decap_12 (.io_active(la_data_in[6]),
     .vccd1(vccd1),
     .vssd1(vssd1),
@@ -2489,10 +2478,6 @@ module user_project_wrapper (user_clock2,
     wbs_sel_i[2],
     wbs_sel_i[1],
     wbs_sel_i[0]}));
-
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
  macro_decap_3 u_macro_decap_3 (.io_active(la_data_in[5]),
     .vccd1(vccd1),
     .vssd1(vssd1),
@@ -3099,10 +3084,6 @@ module user_project_wrapper (user_clock2,
     wbs_sel_i[2],
     wbs_sel_i[1],
     wbs_sel_i[0]}));
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-*/
  macro_golden u_macro_golden (.io_active(la_data_in[1]),
     .vccd1(vccd1),
     .vssd1(vssd1),
@@ -3709,9 +3690,6 @@ module user_project_wrapper (user_clock2,
     wbs_sel_i[2],
     wbs_sel_i[1],
     wbs_sel_i[0]}));
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*
  macro_nodecap u_macro_nodecap (.io_active(la_data_in[7]),
     .vccd1(vccd1),
     .vssd1(vssd1),
@@ -4318,10 +4296,6 @@ module user_project_wrapper (user_clock2,
     wbs_sel_i[2],
     wbs_sel_i[1],
     wbs_sel_i[0]}));
-
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
  macro_nofill u_macro_nofill (.io_active(la_data_in[8]),
     .vccd1(vccd1),
     .vssd1(vssd1),
@@ -4928,5 +4902,4 @@ module user_project_wrapper (user_clock2,
     wbs_sel_i[2],
     wbs_sel_i[1],
     wbs_sel_i[0]}));
-*/
 endmodule
